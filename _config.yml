@@ -1,7 +1,7 @@
 # Site settings
 title: 陈惠芬的简历 
 description: 陈惠芬的简历
-favicon: /assets/img/d7f749797f3c11f4a5a1884be5bac2ab_1.JPG
+favicon: /assets/img/avatar2.JPG
 baseurl: 
 url: https://ddbullfrog.github.io/resumecard
 rss_url: /pages/atom.xml
@@ -23,7 +23,7 @@ author:
   github: 
   linkedin: 
   twitter: 
-  gavatar: /resumecard/assets/img/d7f749797f3c11f4a5a1884be5bac2ab_1.JPG
+  gavatar: /resumecard/assets/img/avatar2.JPG
   stackoverflow:
 #  stackoverflow: 4582127
   workHistory:
