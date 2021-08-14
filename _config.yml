@@ -1,0 +1,112 @@
+# Site settings
+title: 陈惠芬的简历 
+description: 陈惠芬的简历
+favicon: /assets/img/d7f749797f3c11f4a5a1884be5bac2ab_1.JPG
+baseurl: 
+url: https://ddbullfrog.github.io/resumecard
+rss_url: /pages/atom.xml
+google_analytics: UA-63653234-1
+
+# Build settings
+markdown: kramdown
+
+exclude: [vendor]
+
+# Author settings
+author:
+  name: 陈惠芬
+  title: WEB前端开发工程师
+  address: Tokyo, Janpan
+  email: chenhf940601@gmail.com
+  link: 
+  weibo:
+  github: 
+  linkedin: 
+  twitter: 
+  gavatar: /resumecard/assets/img/d7f749797f3c11f4a5a1884be5bac2ab_1.JPG
+  stackoverflow:
+#  stackoverflow: 4582127
+  workHistory:
+    - work1:
+      company: 独立开发-亚马逊选品提报系统
+      location: 南京-东京
+      title: 
+      started: 2021
+      duration: (2020 - 2021)
+      description: 采用Vue+ElementUI开发方案，这个项目主要是录入选品的信息以及开展选品完成后的后续发货流程。我在此项目负责了前期界面研究以及页面交互的设计和整个网站的前端开发工作。该项目的主要模块是复杂的选品提报流程和选品的管理，以及后续围绕录入的选品数据所衍生的采购以及所属店铺及发货退货等模块。还有基本的用户组别和页面权限动态展示等模块。
+    - work2:
+      company: 南京争锋信息科技有限公司-涨乐金融相关项目
+      location: 南京
+      title: 
+      started: 2020
+      duration: (2019 - 2020)
+      description: 工作内容： 独立负责项目组内的中间件开发工作，配合前端和后台微服务的开发工作。
+    - work3:
+      company: 南京争锋信息科技有限公司 嘟嘟找船项目
+      location: 南京
+      title: 
+      started: 2019
+      duration: (2018 - 2019)
+      description: 工作内容： 负责pc 版官网、M 版官网以及管理后台系统的BUG修复以及根据客户要求以及根据UI设计师提供的设计图对新功能的迭代。该项目设计的技术栈有jQuery+AJAX等。参与的开发内容： pc 版以及M 版官网找船功能以及找货模块以及保险下单模块等页面的开发。管理后台系统的船舶定位功能模块和发布船货功能模块等等页面的开发。
+    - work4:
+      company:  独立开发 微信小程序--逻码算数机
+      location: 南京
+      title: 
+      started: 2018
+      duration: (2018)
+      description: 这是一款根据小学年级提供随机答题练习、答题 PK 和根据单元答题的微信小程序。我在此项目负责了小程序的前端页面的全部开发工作。主要工作是根据UI设计师提供的设计图和图表等元素完成页面的开发并与后端进行数据交互。该小程序的功能点主要包括，各种模式下的答题功能、草稿纸功能、错题本功能 以及对用户微信登录的当前一些信息的存储等功能的实现。
+    - work5:
+      company: 江苏艾康生物医药研发有限公司
+      location: 南京
+      title:
+      started: 2018
+      duration: (2017 - 2018)
+      description: 工作内容：主要根据公司需求，在LAMP 环境中Bootstarp 以及 jQuery+AJAX 技术框架根据设计图完成页面制作。参与的开发模块：公司网站的栏目内容管理模块，询单模块的部分内容的页面开发，数据采集系统的分析数据模块和采集数据模块的页面等交互设计以及页面开发。
+    - work6:
+      company: 厦门欣旅通科技有限公司
+      location: 厦门
+      title: PHP实习工程师
+      started: 2017
+      duration: (2016 - 2017)
+      description: 工作内容：主要负责公司承接的旅行社的 ERP 系统，以及电脑版和移动端的官网程序的开发维护以 及参与数据库的设计和优化。该系统及官网运用 PHP的smarty 模板技术和 JS+AJAX 技术等。参与的开发模块：移动版官网旅游签证模块的开发，电脑版和移动版官网旅游游记模块，电脑版和 移动版的团购活动和 ERP 系统的团购活动模块，ERP 系统、移动版以及电脑版官网的各种线路推荐功能的整理等。
+  educationHistory:
+    - education1:
+      organization: 集美大学诚毅学院
+      location: 厦门
+      degree: 本科
+      major: 软件工程
+      started: 2016
+      duration: (2012 - 2016)
+      #description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+  languages:
+    - language1:
+      name: Chinese
+      proficiency: Native
+    - language2:
+      name: Japanese
+      proficiency: N2
+  programmingSkills:
+    - skill1:
+      name: HTML
+      percentage: 100%
+    - skill2:
+      name: Bootstrap
+      percentage: 90%
+    - skill3:
+      name: ElementUI
+      percentage: 90%
+    - skill4:
+      name: ECharts
+      percentage: 80%
+    - skill5:
+      name: Vue.js
+      percentage: 80%
+    - skill6:
+      name: 本地存储(LocalStorage、SessionStorage、Cookie等)
+      percentage: 70%
+    - skill7:
+      name: 基于HTML5的WebApp开发以及移动端适配
+      percentage: 70%
+    - skill8:
+      name: PHP
+      percentage: 85%
